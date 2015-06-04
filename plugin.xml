@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+xmlns:android="http://schemas.android.com/apk/res/android"
+    id="com.jp.plugin.display_toast"
+    version="1.0.0">
+    <name>Display_Toast</name>
+    <description>Display Toast</description>
+    <license>Apache 2.0</license>
+    <keywords>toast,show toast</keywords>
+    <repo></repo>
+    <issue></issue>
+    <js-module src="www/display_toast.js" name="Display_Toast">
+        <clobbers target="display_toast" />
+    </js-module>
+    <!-- android -->
+    <platform name="android">
+        <config-file target="res/xml/config.xml" parent="/*">
+            <feature name="Display_Toast" >
+                <param name="android-package" value="com.jp.plugin.display_toast.Display_Toast"/>
+            </feature>
+        </config-file>
+        <source-file src="src/android/com/jp/plugin/display_toast/Display_Toast.java" target-dir="src/com/jp/plugin/display_toast" />
+    </platform>
+</plugin>
