@@ -12,8 +12,7 @@ import android.util.Log;
 import java.io.File;
 
 public class Display_Toast extends CordovaPlugin {
-
-
+	
 		@Override
 		public boolean execute(String actionString, String message, CallbackContext callbackContext)
 		{
