@@ -26,8 +26,8 @@ display_toast.show_toast(
 	{
             console.log(error);
         },
-	message
-    );
+	<your toast message>
+    ); 
 
 
 GitHub URL:   https://github.com/jaypratapsingh/Display_Toast
