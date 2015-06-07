@@ -4,9 +4,7 @@ var display_toast = {
 		            errorCallback,
 					"Display_Toast",
 					"Toast_method_called",
-					[{
-					 "message":message
-					}]
+					message
 					);
     }
 }
