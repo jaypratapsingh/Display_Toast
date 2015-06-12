@@ -14,7 +14,6 @@ Remove Plugins :
 cordova plugin remove com.jp.plugin.display_toast
 
 
-
 Put the below code in your javascript code to show_toast: 
 
 display_toast.show_toast(
