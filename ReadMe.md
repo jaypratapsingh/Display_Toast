@@ -1,20 +1,20 @@
-*************Cordova : Display Toast*****************
+# *********Cordova : Display Toast**************
 
 By using this plugin you can show toast
 
 
-Install this plugin using:
+## Install this plugin using:
 
 cordova plugin add com.jp.plugin.display_toast
 
 
 
-Remove Plugins :
+## Remove Plugins :
 
 cordova plugin remove com.jp.plugin.display_toast
 
 
-Put the below code in your javascript code to show_toast: 
+## Put the below code in your javascript code to show_toast: 
 
 display_toast.show_toast(
 	function(success)
@@ -29,6 +29,10 @@ display_toast.show_toast(
     ); 
 
 
-GitHub URL:   https://github.com/jaypratapsingh/Display_Toast
+## 
 
-npm url :     https://www.npmjs.com/package/com.jp.plugin.display_toast
+
+
+> GitHub URL:   https://github.com/jaypratapsingh/Display_Toast
+
+> npm url :     https://www.npmjs.com/package/com.jp.plugin.display_toast
